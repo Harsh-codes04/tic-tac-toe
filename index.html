@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tic Tac Toe | Harsh Game Hub</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="overlay"></div>
+
+<div class="container">
+
+<img src="images/logo.jpg" class="logo">
+
+<h1>TIC TAC TOE</h1>
+
+<p class="subtitle">
+
+Challenge Your Friends or Beat the AI 🤖
+
+</p>
+
+<!-- =========================
+      GAME MODE
+========================== -->
+
+<div class="mode-box">
+
+<h2>Select Game Mode</h2>
+
+<div class="mode-buttons">
+
+<button id="pvpBtn" class="mode active">
+
+👥 Player vs Player
+
+</button>
+
+<button id="aiBtn" class="mode">
+
+🤖 Player vs AI
+
+</button>
+
+</div>
+
+</div>
+
+<!-- =========================
+      DIFFICULTY
+========================== -->
+
+<div class="difficulty-box" id="difficultyBox">
+
+<h2>AI Difficulty</h2>
+
+<select id="difficulty">
+
+<option value="easy">
+
+🟢 Easy
+
+</option>
+
+<option value="hard">
+
+🔴 Hard
+
+</option>
+
+</select>
+
+</div>
+
+<!-- =========================
+      SCOREBOARD
+========================== -->
+
+<div class="score-board">
+
+<div class="score">
+
+<img src="images/x.png" class="icon">
+
+<h3>Player X</h3>
+
+<span id="x-score">0</span>
+
+</div>
+
+<div class="score">
+
+<img src="images/trophy.png" class="icon">
+
+<h3>Draw</h3>
+
+<span id="draw-score">0</span>
+
+</div>
+
+<div class="score">
+
+<img src="images/o.png" class="icon">
+
+<h3 id="playerOName">
+
+Player O
+
+</h3>
+
+<span id="o-score">0</span>
+
+</div>
+
+</div>
+
+<!-- =========================
+      STATUS
+========================== -->
+
+<h2 id="status">
+
+<img src="images/x.png"
+
+class="turn-icon">
+
+Player X Turn
+
+</h2>
+
+<!-- =========================
+        BOARD
+========================== -->
+
+<div class="board">
+
+<button class="cell" data-index="0"></button>
+
+<button class="cell" data-index="1"></button>
+
+<button class="cell" data-index="2"></button>
+
+<button class="cell" data-index="3"></button>
+
+<button class="cell" data-index="4"></button>
+
+<button class="cell" data-index="5"></button>
+
+<button class="cell" data-index="6"></button>
+
+<button class="cell" data-index="7"></button>
+
+<button class="cell" data-index="8"></button>
+
+</div>
+
+<!-- =========================
+        BUTTONS
+========================== -->
+
+<div class="buttons">
+
+<button id="restart">
+
+<i class="fa-solid fa-rotate-right"></i>
+
+Restart
+
+</button>
+
+<button id="newGame">
+
+<i class="fa-solid fa-gamepad"></i>
+
+New Game
+
+</button>
+
+</div>
+
+<!-- =========================
+        POPUP
+========================== -->
+
+<div id="winnerPopup" class="popup">
+
+<div class="popup-content">
+
+<img src="images/trophy.png"
+
+class="trophy">
+
+<h2 id="winnerText">
+
+Player X Wins!
+
+</h2>
+
+<button id="closePopup">
+
+Continue
+
+</button>
+
+</div>
+
+</div>
+
+<footer>
+
+<p>
+
+Developed with ❤️ by
+
+<strong>
+
+Harsh Chendake
+
+</strong>
+
+</p>
+
+</footer>
+
+</div>
+
+<!-- =========================
+        AUDIO
+========================== -->
+
+<audio id="clickSound" src="sounds/click.mp3"></audio>
+
+<audio id="winSound" src="sounds/win.mp3"></audio>
+
+<audio id="drawSound" src="sounds/draw.mp3"></audio>
+
+<audio id="restartSound" src="sounds/restart.mp3"></audio>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
