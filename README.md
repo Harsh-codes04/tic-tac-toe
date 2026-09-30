@@ -10,7 +10,7 @@ This project features a beautiful gaming interface, sound effects, score trackin
 
 >Play 🎮
 >
-Link to play: https://harsh-codes04.github.io/tic-tac-toe/
+(images/Screenshot.png
 
 ---
 
