@@ -10,7 +10,7 @@ This project features a beautiful gaming interface, sound effects, score trackin
 
 >Play 🎮
 >
-(images/Screenshot.png)
+![Tic Tac Toe Screenshot](images/Screenshot.png)
 
 ---
 
