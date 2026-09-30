@@ -8,13 +8,9 @@ This project features a beautiful gaming interface, sound effects, score trackin
 
 ## 📸 Preview
 
-> Add a screenshot of your game here.
-
-Example:
-
-```
-images/screenshot.png
-```
+>Play 🎮
+>
+Link to play: https://harsh-codes04.github.io/tic-tac-toe/
 
 ---
 
