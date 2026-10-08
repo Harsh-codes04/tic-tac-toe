@@ -16,7 +16,7 @@ This project features a beautiful gaming interface, sound effects, score trackin
 
 ## 🚀 Live Demo
 
-🌐 https://harsh-codes04.github.io/tic-tac-toe-pro/
+🌐 (https://harsh-codes04.github.io/tic-tac-toe/)
 
 > Replace the URL if your repository name is different.
 
@@ -101,21 +101,6 @@ git clone https://github.com/Harsh-codes04/tic-tac-toe-pro.git
 | Restart | Restart current match |
 | New Game | Reset scores and start again |
 
----
-
-## 📷 Screenshots
-
-### Home Screen
-
-Add screenshot here.
-
-### Gameplay
-
-Add screenshot here.
-
-### Winner Popup
-
-Add screenshot here.
 
 ---
 
